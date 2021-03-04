@@ -116,10 +116,11 @@ document.addEventListener("click", e => {
         Caman('#canvas', img, function() {
           this.contrast(20);
          this.brightness(-30);
+                      this.noise(-50);
+
           this.edgeEnhance();
           this.greyscale();         
             //this.sharpen(20);
-            //this.noise(-50);
             this.render();
           });
     }
