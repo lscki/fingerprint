@@ -142,6 +142,7 @@ document.addEventListener("click", e => {
             this.render();
           });
   }
+  }
 });
 /*
 edgeEnhance.on('click', function(e) {
