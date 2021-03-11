@@ -112,6 +112,7 @@ document.addEventListener("click", e => {
             this.jarques();
             this.render();
           });
+      /*
     } else if (e.target.classList.contains("edgeenhancer-add")) {
         Caman('#canvas', img, function() {
           this.contrast(20);
@@ -123,6 +124,23 @@ document.addEventListener("click", e => {
             this.render();
           });
     }
+    */
+    } else if (e.target.classList.contains("edgeenhancer-add")) {
+        Caman('#canvas', img, function() {
+          this.resize({
+            width: 600,
+            height: 800
+          });
+          this.contrast(20);
+         this.brightness(-30);
+        // this.noise(-20);
+       
+          this.edgeEnhance();
+          this.threshold(100);
+          this.greyscale();         
+            //this.sharpen(20);
+            this.render();
+          });
   }
 });
 /*
