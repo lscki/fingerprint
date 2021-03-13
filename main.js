@@ -132,7 +132,7 @@ document.addEventListener("click", e => {
             height: 800
           });
           this.contrast(20);
-         this.brightness(-30);
+         this.brightness(20);
         // this.noise(-20);
        
           this.edgeEnhance();
