@@ -127,7 +127,12 @@ document.addEventListener("click", e => {
     */
     } else if (e.target.classList.contains("edgeenhancer-add")) {
         Caman('#canvas', img, function() {
-          this.sharpen(40);      
+        /* this.resize({
+            width: 600,
+            height: 800
+          });
+          */    
+         this.sharpen(40);      
           this.contrast(30);
           //this.brightness(-20);
           //this.greyscale();         
@@ -135,6 +140,15 @@ document.addEventListener("click", e => {
          // this.greyscale();         
 
           this.threshold(165);; 
+         // this.edgeEnhance();
+
+             //this.threshold(120);
+          //this.brightness(20);
+
+             this.render();
+            
+            
+          });
   }
   }
 });
