@@ -135,12 +135,13 @@ document.addEventListener("click", e => {
          //this.sharpen(40);      
           //this.contrast(30);
           //this.brightness(-20);
-          this.greyscale();         
+          this.grungy();
+          //this.greyscale();         
          // this.noise(-20);
          // this.greyscale();         
         
           this.threshold(165);; 
-         this.edgeEnhance();
+         //this.edgeEnhance();
 
              //this.threshold(120);
           //this.brightness(20);
