@@ -132,10 +132,10 @@ document.addEventListener("click", e => {
             height: 800
           });
           */    
-         //this.sharpen(40);      
-          //this.contrast(30);
+         this.sharpen(40);      
+          this.contrast(30);
           //this.brightness(-20);
-          this.grungy();
+         // this.grungy();
           //this.greyscale();         
          // this.noise(-20);
          // this.greyscale();         
