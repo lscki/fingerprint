@@ -140,7 +140,7 @@ document.addEventListener("click", e => {
          // this.noise(-20);
          // this.greyscale();         
         
-          this.threshold(165);; 
+          this.threshold(125);; 
          //this.edgeEnhance();
 
              //this.threshold(120);
